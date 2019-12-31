@@ -1,0 +1,32 @@
+body{
+  background-color: yellow;
+}
+
+detail{
+  background-size: auto;
+}
+
+h1{
+  font-size: 20px;
+  font-style: italic;
+  color: blue;
+}
+
+h2{
+  font-size: 20px;
+  font-style: normal;
+  color: blue;
+
+}
+h3{
+  font-size: 20px;
+  font-style: normal;
+  color: blue;
+
+
+result{
+  margin-top: 50%;
+
+  height: 50%;
+  width: 20%;
+}

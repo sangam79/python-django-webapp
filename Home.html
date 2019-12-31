@@ -1,0 +1,21 @@
+{% load static %}
+   <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+   <div class="mainnav">
+       <form action = "{% url 'government_list' %}" method = "get">
+
+               <a href = "Home.html"> HOME</a>
+
+              </form>
+
+               </div>
+
+    <form action = "{% url 'government_list' %}" method = "get">
+
+    <input name = "userinput" type = "text" placeholder="student name" list_display = hidden >
+    <button>search</button>
+    </form>
+
+
+
+
+    <h1>You're Welcome</h1>

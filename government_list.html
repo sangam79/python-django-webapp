@@ -1,0 +1,20 @@
+{% load static %}
+   <link rel="stylesheet" type="text/css" href="{% static 'css/government.css' %}">
+
+   <form>
+     {% for college in object_list %}
+       <h1> Name :-{{ college.name }} </h1>
+       <h2>Faculty:- {{ college.faculty }}, address:-{{college.address}} </h2>
+       <h3>Batch:- {{ college.batch }},
+           Parents name:- {{ college.parentsname}} </h3>
+       <img src="{{ college.image.url }}" style="height:450px; width:800px; margin-left:20%;">
+
+
+
+
+
+
+
+
+     {% endfor %}
+   </form>
